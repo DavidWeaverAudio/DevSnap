@@ -1,0 +1,26 @@
+{
+  "name": "DevSnap",
+  "version": "1.0.0",
+  "description": "A application to take scheduled screenshots while working.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager . DevSnap --platform=win32 --arch=x64 --icon=icon.png --overwrite"
+  },
+  "keywords": [],
+  "author": "WEAVER AUDIO",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "electron": "^31.2.0",
+    "electron-as-wallpaper-mwl": "1.0.2",
+    "electron-screenshot-service": "^4.0.3",
+    "fs-extra": "^11.2.0",
+    "node-schedule": "^2.1.1",
+    "screenshot-desktop": "^1.15.0"
+  }
+}
