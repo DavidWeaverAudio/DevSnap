@@ -61,3 +61,4 @@ yarn.lock
 
 # Electron specific
 .electron/
+DevSnap-win32-x64
